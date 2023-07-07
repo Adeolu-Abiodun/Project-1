@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Caribbean Palate Mobile Truck Restaurant</title>
+  <!-- Link to CSS file(s) -->
+  <link href="my_first.css" rel="stylesheet">
+  <!-- Additional metadata -->
+  <meta name="keywords" content="Caribbean, restaurant, food, flavors">
+  <meta name="description" content="Experience the vibrant flavors and rich cultural heritage of the Caribbean at Caribbean Palate Mobile Truck Restaurant.">
+</head>
+
+<body>
+  <header>
+    <h1>Caribbean Palate Mobile Truck Restaurant</h1>
+    <nav>
+      <!-- Navigation list -->
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Menu</a></li>
+        <li><a href="#">Locations</a></li>
+        <li><a href="#">Contact/Follow-us</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section>
+    <h2>Introduction</h2>
+    <p>The Caribbean Palate Mobile Truck Restaurant is a unique culinary venture that aims to bring the vibrant flavors and rich cultural heritage of the Caribbean to various locations in Charlotte, NC and Clover, SC.</p>
+  </section>
+
+  <footer>
+    <p>Every bit is a promise kept!</p>
+  </footer>
+
+  <!-- Inline image -->
+  <img src="path_to_image.jpg" alt="Inline Image">
+
+  <!-- Character references -->
+  <p>This is an example of a character reference: &amp;</p>
+
+  <!-- Grouping elements -->
+  <div>
+    <h3>Special Offers</h3>
+    <ul>
+      <li>20% off on Mondays</li>
+      <li>Free dessert with every meal</li>
+    </ul>
+  </div>
+
+  <!-- Sectioning element -->
+  <section>
+    <h2>Menu</h2>
+    <article>
+      <h3>Appetizers</h3>
+      <p>Try our delicious plantain chips served with homemade salsa.</p>
+    </article>
+    <article>
+      <h3>Main Course</h3>
+      <p>Indulge in our mouthwatering jerk chicken served with rice and peas.</p>
+    </article>
+  </section>
+
+  <!-- Text-level elements -->
+  <p>We strive to provide the best dining experience for our customers.</p>
+  <p>Contact us for reservations or catering services.</p>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* CSS Styles */
+
+/* Format lists, background, and text */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  list-style: none; /* Format lists */
+}
+
+/* Pseudo-classes for hypertext links */
+a:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+/* Floating elements */
+.float-left {
+  float: left;
+  margin-right: 10px;
+}
+
+/* Block and floating elements */
+.float-right {
+  float: right;
+  display: block;
+  margin-left: 10px;
+}
+
+/* Grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+/* Relative and absolute positioning */
+.relative-position {
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.absolute-position {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+/* Handle overflow */
+.overflow-example {
+  width: 200px;
+  height: 200px;
+  overflow: auto;
+}
+
+/* Responsive design using media queries */
+@media (max-width: 600px) {
+  /* Styles for screens with a width of 600px or less */
+  body {
+    background-color: lightblue;
+  }
+}
+
+/* Flexbox */
+.flex-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Contextual/attribute selectors */
+input[type="text"] {
+  background-color: lightgray;
+  border: 1px solid gray;
+  padding: 5px;
+}
+
+/* Pseudo-classes/elements */
+p:first-child {
+  font-weight: bold;
+}
