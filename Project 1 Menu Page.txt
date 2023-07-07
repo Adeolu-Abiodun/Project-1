@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Set metadata of the document -->
+  <meta charset="UTF-8">
+  <title>Caribbean Palate Restaurant</title>
+  <meta name="keywords" content="Caribbean, Haitian, Black Rice, Food, Charlotte">
+  <!-- Link to external stylesheets -->
+  <link href="my_first.css" rel="stylesheet">
+  <link href="my_second.css" rel="stylesheet">
+  <style>
+    /* CSS styles */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+    
+    header {
+      background-color: #f9f9f9;
+      padding: 20px;
+    }
+    
+    h1 {
+      color: #333;
+    }
+    
+    p {
+      color: #555;
+    }
+    
+    nav ul {
+      list-style-type: none;
+      padding: 0;
+    }
+    
+    nav li {
+      display: inline;
+      margin-right: 10px;
+    }
+    
+    nav a {
+      text-decoration: none;
+      color: #555;
+    }
+    
+    article {
+      padding: 20px;
+    }
+    
+    div {
+      margin-bottom: 20px;
+    }
+    
+    h3 {
+      color: #333;
+      font-size: 18px;
+      margin: 0;
+      padding: 0;
+    }
+    
+    p {
+      color: #555;
+      margin: 0;
+      padding: 0;
+    }
+    
+    h1 {
+      font-size: 24px;
+      margin-bottom: 10px;
+    }
+    
+    footer {
+      background-color: #f9f9f9;
+      padding: 20px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <a href="About_our_menu.html">
+      <!-- Image representing the restaurant -->
+      <img src="pix1.jpg" alt="CARIBBEAN PALATE RESTAURANT">
+    </a>
+    <h1>CARIBBEAN PALATE RESTAURANT</h1>
+    <p>
+      <!-- Description of the restaurant -->
+      <strong>CARIBBEAN PALATE RESTAURANT</strong> is a family-owned Caribbean restaurant driven by a passionate commitment to serve a fresh Caribbean menu on a daily basis. Since our establishment in 2019, we have consistently delivered on our promise, ensuring every bite is a testament to our dedication.
+    </p>
+    <nav>
+      <ul>
+        <li><a href="mp_index.html">Home</a></li>
+        <li><a href="mp_menu.html">Menu</a></li>
+        <li><a href="mp_events.html">Hiring</a></li>
+      </ul>
+    </nav>
+  </header>
+  <article>
+    <div>
+      <h3>Just4U-1</h3>
+      <p>Fried Plantain + Fried Chicken/Fish<br/>($15.50)</p>
+    </div>
+
+    <div>
+      <h3>Just4U-2</h3>
+      <p>Black Rice + Beans (legume) + Chicken/Fish<br/>($18.50)</p>
+    </div>
+
+    <div>
+      <h3>Just4U-3</h3>
+      <p>Black Rice + Chicken/Fish<br/>($14.99)</p>
+    </div>
+
+    <div>
+      <h3>Just4U-4</h3>
+      <p>Ginger Spag. + Chicken/Fish<br/>($17.25)</p>
+    </div>
+
+    <div>
+      <h3>Just4U-5</h3>
+      <p>Yam Porridge + Fish/Chicken<br/>($15.00)</p>
+    </div>
+
+    <h1>Other Side Attractions</h1>
+    <div>
+      <p>Goat Meat<br/>($8.99)</p>
+    </div>
+
+    <div>
+      <p>Snail<br/>(9.99)</p>
+    </div>
+
+    <div>
+      <p>Turkey<br/>($8.99)</p>
+    </div>
+
+    <div>
+      <p>Cow Meat<br/>($8.99)</p>
+    </div>
+  </article>
+  <footer>
+    <!-- Contact information of the restaurant -->
+    Call Us today @ 123, Charlotte Ln, Charlotte&nbsp;&nbsp;28211 &#9832; 987-654-3210
+  </footer>
+</body>
+</html>
+
+
+
+
+
+/* CSS styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #f9f9f9;
+  padding: 20px;
+}
+
+h1 {
+  color: #333;
+}
+
+p {
+  color: #555;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #555;
+}
+
+article {
+  padding: 20px;
+}
+
+div {
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #333;
+  font-size: 18px;
+  margin: 0;
+  padding: 0;
+}
+
+p {
+  color: #555;
+  margin: 0;
+  padding: 0;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #f9f9f9;
+  padding: 20px;
+  color: #555;
+}
+
+/* Format lists */
+ul {
+  padding-left: 20px;
+}
+
+/* Background and text color */
+body {
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+/* Pseudo-classes/elements */
+a:hover {
+  color: #ff0000;
+}
+
+/* Contextual/attribute selectors */
+div[class^="Just4U"] {
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+/* Block and floating elements */
+div {
+  display: block;
+}
+
+.float-left {
+  float: left;
+  margin-right: 20px;
+}
+
+.float-right {
+  float: right;
+  margin-left: 20px;
+}
+
+.clearfix::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Floated layout */
+.float-container {
+  width: 100%;
+}
+
+.float-item {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Grid layout */
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+.grid-item {
+  padding: 10px;
+  box-sizing: border-box;
+  border: 1px solid #ccc;
+}
+
+/* Positioning */
+.relative-container {
+  position: relative;
+}
+
+.absolute-item {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Overflow */
+.overflow-container {
+  width: 200px;
+  height: 200px;
+  overflow: auto;
+  border: 1px solid #ccc;
+  padding: 10px;
+}
+
+/* Responsive design */
+@media screen and (max-width: 768px) {
+  header {
+    padding: 10px;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  nav li {
+    margin-right: 5px;
+  }
+
+  article {
+    padding: 10px;
+  }
+  
+  .grid-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  
+  .float-item {
+    width: 100%;
+  }
+  
+  .clearfix::after {
+    display: none;
+  }
+  
+  .overflow-container {
+    width: 100%;
+  }
+}
+
+/* Pull-down menu */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 10px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
